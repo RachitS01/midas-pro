@@ -1,0 +1,25 @@
+# General
+**/.idea/
+**/.vscode/
+**/.DS_Store
+*.log
+*.txt
+*.iml
+
+# Backend (Java/Maven)
+**/target/
+**/*.class
+**/logs/
+**/.mvn/wrapper/maven-wrapper.properties
+
+# Frontend (Node/React)
+**/node_modules/
+**/dist/
+**/build/
+**/.env
+**/.env.local
+**/coverage/
+
+# Docker & Data
+postgres-data/
+**/volumes/
